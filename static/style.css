@@ -1,0 +1,112 @@
+html {
+  font-family : Lato, sans-serif;
+}
+
+body {
+  box-sizing : border-box;
+}
+
+*, *::after, *::before {
+  box-sizing : inherit;
+}
+
+.navbar {
+  max-width : 640px;
+  margin : 50px auto;
+  padding : 0 20px;
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  font-size : 24px;
+}
+
+.navbar__brand {
+  display : flex;
+  align-items : center;
+}
+
+.navbar__logo {
+  margin-right : 20px;
+}
+
+.navbar__navigation {
+  display : flex;
+  flex-direction : row;
+  padding : 0;
+  list-style : none;
+  color : #5c6b70;
+  
+}
+
+.navbar__navigation-item {
+   margin-left : 50px; 
+}
+
+.navbar__link {
+  text-decoration : none;
+  color : inherit;
+}
+
+.main {
+  max-width : 450px;
+  margin : 0 auto;
+  padding : 0 20px;
+}
+
+.form {
+  display : flex;
+  flex-direction : column;
+  align-items : flex-end;
+}
+
+.form__input {
+  width : 100%
+}
+
+.form__label {
+  display : block;
+  margin-bottom : 10px;
+}
+
+.form__textarea {
+  width : inherit;
+  font-size : 18px;
+  padding : 12px 20px;
+  box-sizing : border-box;
+  background-color : #edf4ff;
+  border : none;
+}
+
+.form__submit {
+  background-color : #6f88ad;
+  color : white;
+  border : none;
+  padding : 12px 20px;
+  border-radius : 20px;
+  cursor : pointer;
+}
+
+.form__submit:hover {
+  background-color : #889bb8;
+  font-weight : bold;
+}
+
+.entry {
+  margin-top : 50px;
+}
+
+.entry__title {
+  display : inline;
+  font-size : 18px;
+}
+
+.entry__date {
+  color : #2e3d57;
+  font-weight : bold;
+  margin-left : 10px;
+}
+
+.entry__content {
+  font-size : 16px;
+  line-height : 150%;
+}
